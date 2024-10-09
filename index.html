@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MENU DE HTML MENU</title>
+    <style>
+        /* Estilo general */
+        body {
+            font-family: 'Comic Sans MS', 'Comic Neue', sans-serif; /* Cambia el estilo de la letra */
+            background-image: url('https://th.bing.com/th/id/R.efcc62e608119708ed6479710d958fb3?rik=fjrctnaeLyVTqA&riu=http%3a%2f%2fwww.dvayweb.net%2fimages%2fblogs%2f2016811916.jpg&ehk=LScpHhaU2eelPnzUZBJfLQxYxWpLa2Kxw%2fq9txsf9Aw%3d&risl=&pid=ImgRaw&r=0'); /* Imagen de fondo */
+            background-size: cover; /* Asegura que la imagen cubra toda la pantalla */
+            color: #262323; /* Color de texto */
+            text-align: center; /* Centra el texto */
+        }
+        
+        h1 {
+            font-size: 3em;
+            margin-top: 20px;
+            color: #3d4145; /* Color blanco para destacar en el fondo */
+        }
+
+        h2 {
+            font-size: 2em;
+            margin: 20px 0;
+            color: #e90f34; /* Un color cálido para destacar las secciones */
+        }
+
+        /* Estilos específicos para cada categoría */
+        nav ul {
+            list-style-type: none; 
+            padding: 0;
+        }
+
+        nav li {
+            margin: 10px 0;
+        }
+
+        nav a {
+            text-decoration: none;
+            font-size: 1.5em;
+            color: #1a1818;
+            padding: 10px 20px;
+            display: inline-block;
+            border-radius: 8px;
+        }
+         /* Estilos para distribuir los GIFs en la página */
+        /* Monito A zul */
+        #gif1 {
+            position: absolute;
+            top: 30px;
+            left: 20px;
+        }
+        /* Pinguino con sombrero*/
+        #gif2 {
+            position: absolute;
+            bottom: 200px;
+            right: 10px;
+        }
+
+        /* Estilos por categoría */
+        nav li:nth-child(1) a { background-color: #dedb3c; } 
+        nav li:nth-child(2) a { background-color: #bfe256; } 
+        nav li:nth-child(3) a { background-color: #d8df54; } 
+        nav li:nth-child(4) a { background-color: #d5d04c; } 
+        
+        nav a:hover {
+            opacity: 0.8;
+        }
+        
+        .custom-style {
+            font-family: cursive;
+            color: rgb(94, 73, 79);
+            font-size: 20px;
+        }
+    </style>
+</head>
+<body>
+    <h1>ETIQUETAS DE HTML</h1>
+    <p class="custom-style">Selecciona la etiqueta que quieres aprender de ella.</p>
+    
+    <!-- Estructura Basica de HTML -->
+    <h2>Estructura básica de HTML</h2>
+    <nav>
+        <ul>
+            <li><a href="Estructura.html" title="Aprende sobre la estructura básica de HTML">Estructura</a></li>
+        </ul>
+    </nav>
+    
+    <!-- '<head>' -->
+    <h2></h2>
+    <nav>
+        <ul>
+            <li><a href="head.html" title="Explicacion">head</a></li>
+        </ul>
+    </nav>
+
+    <!-- '<body>' -->
+    <h2></h2>
+    <nav>
+        <ul>
+            <li><a href="body.html" title="Información sobre águilas">body</a></li>
+            
+        </ul>
+    </nav>
+
+    <!-- '<a>' -->
+    <h2></h2>
+    <nav>
+        <ul>
+            <li><a href="a.html" title="Información sobre enlace a otra pagina ">a</a></li>
+            
+        </ul>
+    </nav>
+    <!-- '<img>' -->
+        <h2></h2>
+        <nav>
+            <ul>
+                <li><a href="img.html" title="Información sobre imagen">img</a></li>
+                
+            </ul>
+        </nav>
+<!-- '<p>' -->
+    <h2></h2>
+    <nav>
+        <ul>
+            <li><a href="p.html" title="Información sobre parrafos">p</a></li>
+            
+        </ul>
+    </nav>
+    <!-- <h1>, <h2>, <h3>, <h4>, <h5>, <h6> -->
+        <h2></h2>
+        <nav>
+            <ul>
+                <li><a href="Encabezados.html" title="Información sobre encabezados ">Encabezados</a></li>
+                
+            </ul>
+        </nav>
+    </nav>
+    <!-- <ul> y <li> -->
+        <h2></h2>
+        <nav>
+            <ul>
+                <li><a href="Lista.html" title="Información sobre encabezados ">Lista</a></li>
+                
+            </ul>
+        </nav>
+    </nav>
+    <!-- <table>, <tr>, <td>, <th> -->
+        <h2></h2>
+        <nav>
+            <ul>
+                <li><a href="Tablas.html" title="Información sobre encabezados ">Tablas</a></li>
+                <li><a href="gif.html" title="Información sobre gif ">Gif</a></li>
+                
+            </ul>
+        </nav>
+        <img id="gif1" src="https://media.tenor.com/TCRFRR67pVkAAAAi/rebrnd-coding.gif" alt="Monito Azul" width="300px">
+        <img id="gif2" src="https://media.tenor.com/trwMzHIDQlQAAAAi/hack-hacking.gif" alt="Pinguino con sombrero" width="300px">
+        
+</body>
+</html>
